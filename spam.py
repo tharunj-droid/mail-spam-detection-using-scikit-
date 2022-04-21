@@ -4,7 +4,7 @@ from sklearn.naive_bayes import MultinomialNB , GaussianNB
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
 #load the data set
-dataframe = pd.read_csv("D:\Tharun\own codes\spam_detection\spam.csv")
+dataframe = pd.read_csv("D:\Tharun\own codes\spam_detection\spam.csv") #use the location where you have saved the spam.csv file here
 print(dataframe.head())
 #print(dataframe.describe())
 #split for training and testing
